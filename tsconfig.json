@@ -1,0 +1,12 @@
+{
+  // "extends": "./tsconfig.json", //不包含哪个文件
+  "compilerOptions": {
+    "target": "es6", // 打包格式
+    "module": "commonjs",
+    "outDir": "dist",
+    "composite": true,
+    "skipLibCheck": true,
+    "rootDir": "./src"
+  },
+  "include": ["src/**/*"] // 包含哪些文件
+}

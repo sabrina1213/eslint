@@ -1,0 +1,43 @@
+{
+  "name": "@syt/eslint-test",
+  "version": "2.7.1",
+  "description": "石玉婷的eslintTest",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "script": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@这里是仓库ssh的git地址"
+  },
+  "homepage": "这里是仓库git的地址",
+  "files": [
+    "dist"
+  ],
+  "author": "shiyuting@qq.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/eslint": "^7.29.0",
+    "@types/estree": "^0.0.50"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.31.2",
+    "@typescript-eslint/parser": "^4.31.2",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-vue": "^7.20.0",
+    "lodash": "^4.17.21",
+    "vue-eslint-parser": "^7.11.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
+}
